@@ -1,0 +1,104 @@
+. {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    height: 0;
+    width: 0;
+    
+}
+body{
+    background-image: url("img/glIwjn.png");
+    min-height: 100%;
+    font-family: sans-serif;
+    
+}
+.todo {
+    width: 450px;
+    height: 498px;
+    margin-left: 450px;
+    margin-top: 80px;
+    background-color: #fff;
+    border: 5px solid #000;
+}
+.header {
+    height: 50px;
+    text-align: center;
+    padding: 2rem;
+    border-color: dimgray;
+    background-color: rgb(229, 255, 0);
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    display: block;
+    border-bottom: 2.5px solid #000;
+    
+    
+
+}
+span {
+    margin-right: 20px;
+    color: #fff;
+}
+desc {
+    margin-top: -29.56px;
+    height: 87%;
+    margin-left: -40px;
+}
+input[type="checkbox"] {
+    position: relative;
+    right: 20px;
+    top: 6px;
+    float: right;
+}
+
+input[type="checkbox"]:checked+label
+{
+    text-decoration: line-through;
+    color: black;
+}
+
+.list{
+    font-size: 29px;
+    list-style-type: decimal;
+    font-style: unset;
+   
+    
+}
+
+.list li{
+    float: left;
+    width: 90%;
+}
+
+label{
+    padding: 4px;
+    
+    width: 40%;
+}
+
+.dark-grey{
+    background-color: dimgray;
+    color: black;
+    
+    
+}
+
+
+.dark-yellow{
+    background-color: yellow;
+}
+input[type="date"]{
+    padding: 5px;
+    margin: auto;
+    font-weight: 350px;
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+    
+   
+}
+    
+    
+    
